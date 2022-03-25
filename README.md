@@ -1,7 +1,6 @@
 # StudyRoom_AOS
 
 with Youngho Choi , SangKyoung Park
-Develop 
 
 
 |Date(YY.MM.DD)|Development progress|Feedback|
