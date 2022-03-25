@@ -1,6 +1,6 @@
 # StudyRoom_AOS
 
-with Youngho Choi , SangKyoung Park \n
+with Youngho Choi , SangKyoung Park
 Develop 
 
 
