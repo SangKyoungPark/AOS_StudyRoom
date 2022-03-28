@@ -6,11 +6,22 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="180sp"
+        android:layout_height="50sp"
+        android:layout_marginTop="5dp"
+        android:text="회원가입"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button" />
+
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="120sp"
         android:layout_height="120sp"
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="50dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -54,7 +65,7 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textInputLayout2"
-        app:layout_constraintVertical_bias="0.08">
+        app:layout_constraintVertical_bias="0.05">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/edit_pwd"
@@ -65,8 +76,8 @@
 
     <RadioButton
         android:id="@+id/radioButton"
-        android:layout_width="100dp"
-        android:layout_height="30dp"
+        android:layout_width="103dp"
+        android:layout_height="31dp"
         android:layout_marginTop="10dp"
         android:gravity="center"
         android:scaleX="0.7"
@@ -74,7 +85,7 @@
         android:text="비밀번호 표시"
         android:textAlignment="center"
         android:textColor="#3F51B5"
-        android:textSize="10sp"
+        android:textSize="12sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.331"
         app:layout_constraintStart_toStartOf="parent"
@@ -103,8 +114,8 @@
         android:id="@+id/button"
         android:layout_width="180sp"
         android:layout_height="50sp"
-        android:layout_marginTop="20dp"
-        android:text="Login"
+        android:layout_marginTop="10dp"
+        android:text="로그인"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/radioButton" />
